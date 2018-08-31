@@ -18,6 +18,7 @@
   <modules>
     <module>service</module>
     <module>logical</module>
-    <module>aggregate</module>
+    <module>info-flow</module>
+    <module>utils</module>
   </modules>
 </project>
