@@ -28,14 +28,14 @@ public class BankInfo {
 
     /**
      * Method handling HTTP GET requests to get price and number
-     * of loan applications of last 7 days.
+     * of loan applications of previous days.
      * @return String that will be returned as a application/json response.
      */
     @GET @Path("/history")
     @Produces(MediaType.APPLICATION_JSON)
     public String getHistory(){
         return JSONObject.fromObject(
-                new ManagerService().get7Day()
+                new ManagerService().getDailyHistory()
         ).toString();
     }
 

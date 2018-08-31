@@ -3,6 +3,7 @@ package authen;
 import java.util.HashMap;
 
 public class Authenticator {
+    //TODO:Annotation
     private static HashMap<String,Integer> current_users=new HashMap<>();
 
     public static void add(String token,Integer privilege){

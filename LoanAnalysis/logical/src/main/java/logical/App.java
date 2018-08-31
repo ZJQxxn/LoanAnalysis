@@ -9,6 +9,8 @@ public class App
 {
     public static void main( String[] args )
     {
-        System.out.println("HelloWorld");
+
+        ManagerService servicer=new ManagerService();
+        System.out.println(servicer.getDailyHistory());
     }
 }

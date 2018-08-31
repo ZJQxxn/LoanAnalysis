@@ -70,7 +70,7 @@ public class UserInfo {
     @Produces(MediaType.APPLICATION_JSON)
     public String getConsumeHistory(@PathParam("info") String userID) {
         return JSONObject.fromObject(
-                new ManagerService().getConsumeHistory(userID)
+                new ManagerService().getBureauHistory(userID)
         ).toString();
     }
 }

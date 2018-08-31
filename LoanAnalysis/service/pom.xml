@@ -74,6 +74,11 @@
       <version>${project.version}</version>
       </dependency>
 
+      <dependency>
+          <groupId>LoanAnalysis</groupId>
+          <artifactId>utils</artifactId>
+          <version>${project.version}</version>
+      </dependency>
 
   </dependencies>
   
